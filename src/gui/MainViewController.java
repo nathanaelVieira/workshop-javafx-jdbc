@@ -35,7 +35,6 @@ public class MainViewController implements Initializable {
 
 	@FXML
 	public void onMenuItemDepartmentAction() {
-//		System.out.println("onMenuItemDepartmentAction");
 		loadView("/gui/DepartmentList.fxml", (DepartmentListController controler) -> {
 			controler.setDepartmentService(new DepartmentService());
 			controler.updateTableView();
@@ -44,7 +43,6 @@ public class MainViewController implements Initializable {
 
 	@FXML
 	public void onMenuItemAboutAction() {
-//		System.out.println("onMenuItemAboutAction");
 		loadView("/gui/About.fxml", x -> {
 		});
 
@@ -52,7 +50,7 @@ public class MainViewController implements Initializable {
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
-		// TODO Auto-generated method stub
+		
 
 	}
 

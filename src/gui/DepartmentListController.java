@@ -50,6 +50,12 @@ public class DepartmentListController implements Initializable {
 		createDialogForm("/gui/DepartmentForm.fxml", parentStage);
 	}
 
+	/**
+	 * Método para instaciar um DepartmentService -> Aonde possui as operações de
+	 * CRUD: findAll(), findById(), delete() e update().
+	 * 
+	 * @param service
+	 */
 	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
