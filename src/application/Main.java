@@ -16,7 +16,6 @@ public class Main extends Application {
  * Synchronized: deixa a aplicação em estado ativo.
  */
 	
-	
 	public synchronized void start(Stage primaryStage) {
 //	public void start(Stage primaryStage) {
 		try {
